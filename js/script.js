@@ -3,7 +3,7 @@
   }
 
   function dothis(){
-  alert("Yelyzaveta Myshenyova:" + document.getElementById("textentry").value);
+  alert("Yelyzaveta Myshenyova:" + document.getElementById("entryinput").value);
   }
 
   window.addEventListener('load', init);
