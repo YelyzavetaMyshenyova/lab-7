@@ -1,11 +1,9 @@
 function init(){
-//add your javascrip between these two lines of code
- 
+ document.getElementById("entrybutton").addEventListener("click", dothis);
+}
 
-
-
-
-
-
+function dothis(){
+alert("I am an alert box!");
+}
 
 window.addEventListener('load', init);
