@@ -1,9 +1,9 @@
-function init(){
- document.getElementById("entrybutton").addEventListener("click", dothis);
-}
+  function init(){
+  document.getElementById("entrybutton").addEventListener("click", dothis);
+  }
 
-function dothis(){
-alert("I am an alert box!");
-}
+  function dothis(){
+  alert("Yelyzaveta Myshenyova:" + document.getElementById("textentry").value);
+  }
 
-window.addEventListener('load', init);
+  window.addEventListener('load', init);
