@@ -4,7 +4,7 @@
 
   function dothis(){
   alert("Yelyzaveta Myshenyova: " + document.getElementById("entryinput").value);
-    document.getElementById("textoutput").innerHTML = "entryinput";
+    document.getElementById("textoutput").innerHTML = document.getElementById("entryinput").value;
   }
 
   window.addEventListener('load', init);
